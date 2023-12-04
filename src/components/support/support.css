@@ -1,4 +1,7 @@
-.testimonials__container {
+.spt {
+  padding-top: 3rem;
+}
+  .testimonials__container {
     width: 40%;
     padding-bottom: 4rem;
   }
@@ -10,12 +13,7 @@
     margin: 0 auto 1rem;
     border: 0.4rem solid var(--color-primary-variant);
   }
-  .testimonialpendidikan {
-    background: transparent;
-    text-align: center;
-    padding-top: 10px;;
-    user-select: none;
-  }
+
   .client__review {
     color: var(--color-light);
     font-weight: 300;
@@ -42,13 +40,7 @@
   
 
 
-  .custombody2 {
-    align-items: center;
-    background: transparent;
-    display: flex;
-    height: fit-content;
-    justify-content: center;
-  }
+
   
   @-webkit-keyframes scroll {
     0% {

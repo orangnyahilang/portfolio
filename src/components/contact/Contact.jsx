@@ -1,7 +1,7 @@
 import { Component, createRef } from "react";
 import "./contact.css";
 import { MdOutlineEmail } from "react-icons/md";
-import { RiMessengerLine } from "react-icons/ri";
+import { BsFillTelephoneFill } from "react-icons/bs";
 import { RiWhatsappLine } from "react-icons/ri";
 import emailjs from "@emailjs/browser";
 class Contact extends Component {
@@ -33,53 +33,30 @@ class Contact extends Component {
     return (
       <section id="contact">
         <h5>Get In Touch</h5>
-        <h2>Contact Me</h2>
+        <h2>Kontak</h2>
         <div className="container contact__container">
           <div className="contact__options">
             <div className="contact__option">
               <MdOutlineEmail className="contact__option-icon" />
-              <h4>Email</h4>
-              <h5>inext.dev@proton.me</h5>
-              <a href="mailto:inext.dev@proton.me">Send a message</a>
+              <h2>Email</h2>
+              <h5>aryasatyaibnusani@gmail.com</h5>
+              <a href="mailto:aryasatyaibnusani@gmail.com">Send a message</a>
             </div>
             <div className="contact__option">
-              <RiMessengerLine className="contact__option-icon" />
-              <h4>Messenger</h4>
-              <h5>Dummy Hungry</h5>
-              <a href="https://m.me">Send a message</a>
+              <BsFillTelephoneFill className="contact__option-icon" />
+              <h2>Telepon</h2>
+              <h5>085335642150</h5>
+              <a href="tel:+6285335642150">Hubungi</a>
             </div>
             <div className="contact__option">
               <RiWhatsappLine className="contact__option-icon" />
               <h4>Whatsapp</h4>
-              <h5>+212 704866309</h5>
-              <a href="https://api.whatsapp.com/send?phone=212704866309">
+              <h5>+62 8533 5642 150</h5>
+              <a href="https://wa.me/6285335642150">
                 Send a message
               </a>
             </div>
           </div>
-          <form ref={this.form} onSubmit={this.sendEmail} action="">
-            <input
-              type="text"
-              name="name"
-              placeholder="Your Full Name"
-              required
-            />
-            <input
-              type="email"
-              name="email"
-              placeholder="Your Email"
-              required
-            />
-            <textarea
-              name="message"
-              rows="7"
-              placeholder="Your Message"
-              required
-            ></textarea>
-            <button type="submit" className="btn btn-primary">
-              Send Message
-            </button>
-          </form>
         </div>
       </section>
     );

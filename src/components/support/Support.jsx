@@ -4,10 +4,9 @@ import "./support.css";
 class Support extends Component {
   render() {
     return (
-      <section id="testimonials">
-        <section className="testimonialpendidikan">
+      <section id="services" className="spt">
         <h5>I coded and got references from</h5>
-        <div className='custombody2'>
+        <div>
               <div className="slider-custom2">
                 <div className="slide-track">
                   <div className="slide">
@@ -55,7 +54,6 @@ class Support extends Component {
                 </div>
               </div>
               </div>
-        </section>
       </section>
     );
   }

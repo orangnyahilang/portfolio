@@ -11,7 +11,7 @@ import { faNodeJs, faPython, faJava } from '@fortawesome/free-brands-svg-icons';
 class Experience extends Component {
   render() {
     return (
-      <section id="experience">
+      <section id="about" className="exp">
         <h5>Keterampilan Apa yang Saya Miliki ?</h5>
         <h2>Pengalaman Saya</h2>
         <div className="container experience__container">

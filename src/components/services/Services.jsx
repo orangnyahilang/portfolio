@@ -6,7 +6,7 @@ import { faCircleCheck } from '@fortawesome/free-regular-svg-icons';
 class Services extends Component {
   render() {
     return (
-      <section id="services">
+      <section id="experience" className="svc">
         <h5>What I Offer</h5>
         <h2>Services</h2>
         <div className="container services__container">

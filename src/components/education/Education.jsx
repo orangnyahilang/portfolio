@@ -1,11 +1,10 @@
 import React, { Component } from "react";
-import "./testimonials.css";
+import "./education.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronLeft, faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import AVTR1 from "../../assets/untagsbylogo.jpg";
 import AVTR2 from "../../assets/sman1durenan.jpg";
 import AVTR3 from "../../assets/smpn1durenan.jpg";
-import AVTR4 from "../../assets/avatar4.jpg";
 // import Swiper core and required modules
 import { Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -57,7 +56,7 @@ class Testimonials extends Component {
   
   render() {
     return (
-      <section id="testimonials">
+      <section id="services" className="edu">
         <h5>Educational background</h5>
         <h2>History</h2>
         <Swiper

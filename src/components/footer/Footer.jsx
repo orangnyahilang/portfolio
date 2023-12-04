@@ -11,7 +11,7 @@ class Footer extends Component {
     return (
       <footer>
         <a href="#" className="footer__logo">
-          iNext
+          Portfolio
         </a>
         <ul className="permalinks">
           <li>
@@ -37,10 +37,10 @@ class Footer extends Component {
           </li>
         </ul>
         <div className="footer__social">
-          <a href="https://www.facebook.com/inext.deve/" target="_blank">
+          <a href="https://www.facebook.com" target="_blank">
             <IoLogoFacebook />
           </a>
-          <a href="https://instagram.com/inext.dev" target="_blank">
+          <a href="https://instagram.com" target="_blank">
             <IoLogoInstagram />
           </a>
           <a href="https://twitter.com" target="_blank">
@@ -51,7 +51,7 @@ class Footer extends Component {
           </a>
         </div>
         <div className="footer__copyright">
-          <small>&copy; iNext Dev Company. All rights reserved</small>
+          <small>&copy; Arya Satya Ibnu Sani. All rights reserved</small>
         </div>
       </footer>
     );

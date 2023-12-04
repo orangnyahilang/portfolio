@@ -72,7 +72,7 @@ class Portfolio extends Component {
 
   render() {
     return (
-      <section id="portfolio">
+      <section id="experience" className="ptf">
         <h5>Project 3 Bulan Terakhir</h5>
         <h2>Projects</h2>
         <div className="container portfolio__container">
