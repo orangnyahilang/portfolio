@@ -2,6 +2,7 @@ import { Component } from "react";
 import "./services.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleCheck } from '@fortawesome/free-regular-svg-icons';
+import AnimatedComponent from "../../AnimatedComponent";
 
 class Services extends Component {
   render() {
@@ -10,6 +11,7 @@ class Services extends Component {
         <div id="servicesexperience"></div>
         <h5>What I Offer</h5>
         <h2>Services</h2>
+        <AnimatedComponent direction="down">
         <div className="container services__container">
           <article className="service">
             <div className="service__head">
@@ -66,6 +68,7 @@ class Services extends Component {
             </ul>
           </article>
         </div>
+        </AnimatedComponent>
       </section>
     );
   }

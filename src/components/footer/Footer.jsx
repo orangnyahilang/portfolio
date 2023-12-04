@@ -7,10 +7,22 @@ import {
 } from "react-icons/io";
 import "./footer.css";
 import CV from "../../assets/cv.pdf";
+import Wave from 'react-wavify'
 
 class Footer extends Component {
   render() {
     return (
+      <>
+          <Wave fill='#6171cc'
+            paused={false}
+            style={{ display: 'flex' }}
+            options={{
+              height: 40,
+              amplitude: 60,
+              speed: 0.15,
+              points: 5
+            }}
+            />
       <footer>
         <a href="#" className="footer__logo">
           Portfolio
@@ -56,6 +68,7 @@ class Footer extends Component {
           <small>&copy; Arya Satya Ibnu Sani. All rights reserved</small>
         </div>
       </footer>
+      </>
     );
   }
 }

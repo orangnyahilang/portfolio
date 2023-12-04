@@ -5,89 +5,100 @@ import '@fortawesome/fontawesome-free/css/all.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheck, faBarsStaggered, faDatabase, faCircleCheck, faC } from '@fortawesome/free-solid-svg-icons';
 import { faHtml5, faCss3, faJs, faReact, faBootstrap, faPhp, faSass } from '@fortawesome/free-brands-svg-icons';
-import { faNodeJs, faPython, faJava } from '@fortawesome/free-brands-svg-icons'; // for backend
-
+import { faNodeJs, faPython, faJava } from '@fortawesome/free-brands-svg-icons'; 
+import AnimatedComponent from "../../AnimatedComponent";
 
 class Experience extends Component {
   render() {
     return (
       <section id="about" className="exp">
         <div id="aboutexperience"></div>
-        <h5>Keterampilan Apa yang Saya Miliki ?</h5>
-        <h2>Pengalaman Saya</h2>
+        <h5>
+        <AnimatedComponent direction="right">
+        Keterampilan Apa yang Saya Miliki ?
+        </AnimatedComponent>
+        </h5>
+        <h2>
+        <AnimatedComponent direction="right">
+        Pengalaman Saya
+        </AnimatedComponent>
+        </h2>
         <div className="container experience__container">
-        <div className="experience__frontend">
-          <h3>Frontend Development</h3>
-          <div className="experience__content">
-            <article className="experience__details">
-              <FontAwesomeIcon icon={faCheck} className="experience__details-icon" />
-              <div>
-                <FontAwesomeIcon icon={faHtml5} size="2x" />
-                <h4>HTML</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <FontAwesomeIcon icon={faCheck} className="experience__details-icon" />
-              <div>
-                <FontAwesomeIcon icon={faCss3} size="2x" />
-                <h4>CSS</h4>
-                <small className="text-light">Advanced</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <FontAwesomeIcon icon={faCheck} className="experience__details-icon" />
-              <div>
-                <FontAwesomeIcon icon={faJs} size="2x" />
-                <h4>Javascript</h4>
-                <small className="text-light">LoveIt</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <FontAwesomeIcon icon={faCheck} className="experience__details-icon" />
-              <div>
-                <FontAwesomeIcon icon={faBarsStaggered} size="2x" />
-                <h4>Tailwind</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <FontAwesomeIcon icon={faCheck} className="experience__details-icon" />
-              <div>
-                <FontAwesomeIcon icon={faBootstrap} size="2x" />
-                <h4>Bootstrap</h4>
-                <small className="text-light">Beginner</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <FontAwesomeIcon icon={faCheck} className="experience__details-icon" />
-              <div>
-                <FontAwesomeIcon icon={faReact} size="2x" />
-                <h4>React</h4>
-                <small className="text-light">Beginner</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <FontAwesomeIcon icon={faCheck} className="experience__details-icon" />
-              <div>
-                <FontAwesomeIcon icon={faSass} size="2x" />
-                <h4>Sass</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <FontAwesomeIcon icon={faCheck} className="experience__details-icon" />
-              <div>
-              <h5 style={{ marginBottom: '10px', fontSize: '20px',textDecoration: 'underline' }}>
-                NEXT.js
-              </h5>
+          <AnimatedComponent direction="left">
+          <div className="experience__frontend">
+            <h3>Frontend Development</h3>
+            <div className="experience__content">
+              <article className="experience__details">
+                <FontAwesomeIcon icon={faCheck} className="experience__details-icon" />
+                <div>
+                  <FontAwesomeIcon icon={faHtml5} size="2x" />
+                  <h4>HTML</h4>
+                  <small className="text-light">Experienced</small>
+                </div>
+              </article>
+              <article className="experience__details">
+                <FontAwesomeIcon icon={faCheck} className="experience__details-icon" />
+                <div>
+                  <FontAwesomeIcon icon={faCss3} size="2x" />
+                  <h4>CSS</h4>
+                  <small className="text-light">Advanced</small>
+                </div>
+              </article>
+              <article className="experience__details">
+                <FontAwesomeIcon icon={faCheck} className="experience__details-icon" />
+                <div>
+                  <FontAwesomeIcon icon={faJs} size="2x" />
+                  <h4>Javascript</h4>
+                  <small className="text-light">LoveIt</small>
+                </div>
+              </article>
+              <article className="experience__details">
+                <FontAwesomeIcon icon={faCheck} className="experience__details-icon" />
+                <div>
+                  <FontAwesomeIcon icon={faBarsStaggered} size="2x" />
+                  <h4>Tailwind</h4>
+                  <small className="text-light">Intermediate</small>
+                </div>
+              </article>
+              <article className="experience__details">
+                <FontAwesomeIcon icon={faCheck} className="experience__details-icon" />
+                <div>
+                  <FontAwesomeIcon icon={faBootstrap} size="2x" />
+                  <h4>Bootstrap</h4>
+                  <small className="text-light">Beginner</small>
+                </div>
+              </article>
+              <article className="experience__details">
+                <FontAwesomeIcon icon={faCheck} className="experience__details-icon" />
+                <div>
+                  <FontAwesomeIcon icon={faReact} size="2x" />
+                  <h4>React</h4>
+                  <small className="text-light">Beginner</small>
+                </div>
+              </article>
+              <article className="experience__details">
+                <FontAwesomeIcon icon={faCheck} className="experience__details-icon" />
+                <div>
+                  <FontAwesomeIcon icon={faSass} size="2x" />
+                  <h4>Sass</h4>
+                  <small className="text-light">Intermediate</small>
+                </div>
+              </article>
+              <article className="experience__details">
+                <FontAwesomeIcon icon={faCheck} className="experience__details-icon" />
+                <div>
+                <h5 style={{ marginBottom: '10px', fontSize: '20px',textDecoration: 'underline' }}>
+                  NEXT.js
+                </h5>
 
-              <h4>Next JS</h4>
-                <small className="text-light">Beginner</small>
-              </div>
-            </article>
+                <h4>Next JS</h4>
+                  <small className="text-light">Beginner</small>
+                </div>
+              </article>
+            </div>
           </div>
-        </div>
+          </AnimatedComponent>
+          <AnimatedComponent direction="right">
           <div className="experience__backend">
             <h3>Backend Development</h3>
             <div className="experience__content">
@@ -133,6 +144,7 @@ class Experience extends Component {
             </article>
             </div>
           </div>
+          </AnimatedComponent>
         </div>
       </section>
     );

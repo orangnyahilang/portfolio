@@ -4,6 +4,7 @@ import Modal from "react-modal";
 import "./portfolio.css";
 import IMG1 from "../../assets/web1.png";
 import IMG2 from "../../assets/web3.png";
+import AnimatedComponent from "../../AnimatedComponent";
 // import IMG3 from "../../assets/portfolio3.jpg";
 // import IMG4 from "../../assets/portfolio4.jpg";
 // import IMG5 from "../../assets/portfolio5.png";
@@ -75,6 +76,7 @@ class Portfolio extends Component {
       <section id="experience" className="ptf">
         <h5>Project 3 Bulan Terakhir</h5>
         <h2>Projects</h2>
+        <AnimatedComponent direction="up" duration={2000}>
         <div className="container portfolio__container">
           {data.map(({ id, image, title, github, demo }) => {
             return (
@@ -95,6 +97,7 @@ class Portfolio extends Component {
             );
           })}
         </div>
+        </AnimatedComponent>
 
         <Modal className='ReactModal__Overlay'
           isOpen={this.state.isModalOpen}
