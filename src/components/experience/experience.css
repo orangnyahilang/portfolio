@@ -36,6 +36,10 @@
   margin-top: 6px;
   color: var(--color-primary);
 }
+#aboutexperience {
+  padding-top: 2rem;
+}
+
 /* ================ MEDIA QUERIES (MEDIUM DEVICES) ============= */
 
 @media screen and (max-width: 1024px) {

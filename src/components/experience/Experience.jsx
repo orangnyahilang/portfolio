@@ -12,6 +12,7 @@ class Experience extends Component {
   render() {
     return (
       <section id="about" className="exp">
+        <div id="aboutexperience"></div>
         <h5>Keterampilan Apa yang Saya Miliki ?</h5>
         <h2>Pengalaman Saya</h2>
         <div className="container experience__container">

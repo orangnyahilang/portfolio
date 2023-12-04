@@ -1,5 +1,5 @@
 .spt {
-  padding-top: 3rem;
+  padding-top: 2rem;
 }
   .testimonials__container {
     width: 40%;
@@ -13,7 +13,12 @@
     margin: 0 auto 1rem;
     border: 0.4rem solid var(--color-primary-variant);
   }
-
+  .testimonialpendidikan {
+    background: transparent;
+    text-align: center;
+    padding-top: 10px;;
+    user-select: none;
+  }
   .client__review {
     color: var(--color-light);
     font-weight: 300;
@@ -47,7 +52,7 @@
       transform: translateX(0);
     }
     100% {
-      transform: translateX(calc(-250px * 7));
+      transform: translateX(calc(-250px * 28));
     }
   }
   
@@ -56,7 +61,7 @@
       transform: translateX(0);
     }
     100% {
-      transform: translateX(calc(-250px * 7));
+      transform: translateX(calc(-250px * 28));
     }
   }
   .slider-custom2 {
@@ -87,8 +92,8 @@
     top: 0;
   }
   .slider-custom2 .slide-track {
-    -webkit-animation: scroll 40s linear infinite;
-            animation: scroll 40s linear infinite;
+    -webkit-animation: scroll 60s linear infinite;
+            animation: scroll 60s linear infinite;
     display: flex;
     width: calc(250px * 14);
   }

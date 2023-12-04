@@ -6,6 +6,8 @@ import {
   IoLogoYoutube
 } from "react-icons/io";
 import "./footer.css";
+import CV from "../../assets/cv.pdf";
+
 class Footer extends Component {
   render() {
     return (
@@ -21,16 +23,16 @@ class Footer extends Component {
             <a href="#about">About</a>
           </li>
           <li>
-            <a href="#experience">Experience</a>
+            <a href="#aboutexperience">Experience</a>
           </li>
           <li>
-            <a href="#services">Services</a>
+            <a href="#servicesexperience">Services</a>
           </li>
           <li>
-            <a href="#portfolio">Portfolio</a>
+            <a href={CV}>Portfolio</a>
           </li>
           <li>
-            <a href="#testimonials">Testimonials</a>
+            <a href="#services">Education</a>
           </li>
           <li>
             <a href="#contact">Contact</a>
