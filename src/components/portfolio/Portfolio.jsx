@@ -13,7 +13,7 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: "Development of High School Academic Information Systems (SIAKAD)",
+    title: "Pengembangan Sistem Informasi Akademik (SIAKAD)",
     github: "https://github.com/inextdeve",
     demo: "https://inext.dev"
   },
