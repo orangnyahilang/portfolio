@@ -38,9 +38,10 @@
   background: var(--color-bg-variant);
   border: 1px solid transparent;
   border-radius: 1rem;
-  padding: 2rem;
+  padding: 15px;
   text-align: center;
   transition: var(--transition);
+  overflow: auto;
 }
 .about__card:hover {
   border-color: var(--color-primary-variant);
@@ -63,7 +64,9 @@
   margin: 2rem 0 2.6rem;
   color: var(--color-light);
 }
-
+.about_cardshome {
+  position: relative;
+}
 /* ================ MEDIA QUERIES (MEDIUM DEVICES) ============= */
 
 @media screen and (max-width: 1024px) {
@@ -86,12 +89,17 @@
     margin: 0 auto 3rem;
   }
   .about__cards {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    font-size: 8px;
   }
   .about__content {
     text-align: center;
   }
   .about__content p {
     margin: 1.5rem 0;
+  }
+  .about__card h5 {
+    font-size: 12px;
   }
 }

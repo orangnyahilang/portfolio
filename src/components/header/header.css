@@ -41,6 +41,15 @@ header {
   margin-top: 4rem;
   border-radius: 12rem 12rem 0 0;
 }
+.me2 {
+  width: 450px;
+  position: absolute;
+  border-radius: 12rem 12rem 0 0;
+  z-index: -5;
+  top: -40px;
+  right: -5px;
+  opacity: 0.1;
+}
 /* ================= SCROLL DOWN ======= */
 .scroll__down {
   position: absolute;
@@ -67,6 +76,9 @@ header {
     height: 100vh;
   }
   .me {
+    display: none;
+  }
+  .me2 {
     display: none;
   }
   .pc {

@@ -20,6 +20,7 @@ class About extends Component {
           </div>
           </AnimatedComponent>
           <div className="about__content">
+            <div className="about_cardshome">
             <AnimatedComponent direction="down">
             <div className="about__cards">
               <article className="about__card">
@@ -39,6 +40,7 @@ class About extends Component {
               </article>
             </div>
             </AnimatedComponent>
+            </div>
             <AnimatedComponent direction="left">
             <p>
             Saya memiliki dedikasi tinggi terhadap pengembangan perangkat lunak
