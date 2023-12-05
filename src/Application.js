@@ -1,5 +1,5 @@
+// Application.jsx
 import React, { Component } from "react";
-import AnimatedComponent from "./AnimatedComponent";
 import Header from "./components/header/Header";
 import Nav from "./components/nav/Nav";
 import About from "./components/about/About";
@@ -10,11 +10,18 @@ import Education from "./components/education/Education.jsx";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import Support from "./components/support/Support.jsx";
+import "./App.css"; // Mengganti nama file jika diperlukan
+// Application.jsx
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSun, faMoon } from '@fortawesome/free-solid-svg-icons';
 
 class Application extends Component {
   constructor() {
     super();
-    this.state = { showNav: false };
+    this.state = {
+      showNav: false,
+      isLightMode: false,
+    };
   }
 
   handleScroll = () => {
@@ -35,9 +42,21 @@ class Application extends Component {
     window.removeEventListener("scroll", this.handleScroll);
   }
 
+  toggleLightMode = () => {
+    this.setState((prevState) => ({
+      isLightMode: !prevState.isLightMode,
+    }));
+  };
+
   render() {
     return (
-      <>
+      <div className={`app ${this.state.isLightMode ? "dark-mode" : "light-mode"}`}>
+          <button
+            className="btn btn-light-mode"
+            onClick={this.toggleLightMode}
+          >
+            <FontAwesomeIcon icon={this.state.isLightMode ? faSun : faMoon} />
+          </button>
         <Header />
         <Nav showNav={this.state.showNav} />
         <About />
@@ -48,7 +67,7 @@ class Application extends Component {
         <Education />
         <Contact />
         <Footer />
-      </>
+      </div>
     );
   }
 }

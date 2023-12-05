@@ -13,16 +13,16 @@ class Footer extends Component {
   render() {
     return (
       <>
-          <Wave fill='#6171cc'
-            paused={false}
-            style={{ display: 'flex' }}
-            options={{
-              height: 40,
-              amplitude: 60,
-              speed: 0.15,
-              points: 5
-            }}
-            />
+        <Wave fill='#6171cc'
+          paused={false}
+          style={{ display: 'flex', position: 'relative', top: '13px' }}
+          options={{
+            height: 40,
+            amplitude: 60,
+            speed: 0.15,
+            points: 3
+          }}
+        />
       <footer>
         <a href="#" className="footer__logo">
           Portfolio

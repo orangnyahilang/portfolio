@@ -36,3 +36,56 @@
     transform: rotate(360deg);
   }
 }
+
+/* App.css (atau sesuaikan dengan nama file yang digunakan) */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url("./imagesVar.css");
+
+/* ... (CSS yang sudah ada) */
+
+.btn-light-mode {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1000;
+  background: var(--color-primary);
+  color: var(--color-bg);
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 1px solid var(--color-primary);
+  transition: var(--transition);
+  display: flex;
+  align-items: center;
+}
+
+.btn-light-mode:hover {
+  background: var(--color-white);
+  color: var(--color-bg);
+  border-color: transparent;
+}
+
+.btn-light-mode svg {
+  width: 1.5em;
+  height: 1.5em;
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+  background: #00000099; /* Ganti dengan warna latar belakang mode gelap yang diinginkan */
+  --color-bg: #00003efc;
+  --color-bg-variant: #2d2d51;
+  --color-primary: #d5d5d5;
+  --color-primary-variant: rgb(174 174 174 / 40%);
+  --color-white: #a1c3ff;
+  --color-light: rgba(255, 255, 255, 0.6);
+  --transition: all 400ms ease;
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
+}
+
+.light-mode {
+  /* Atur warna untuk light mode jika perlu */
+}
+

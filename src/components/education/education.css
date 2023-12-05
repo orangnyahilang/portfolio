@@ -1,10 +1,13 @@
+/* education.css */
 .edu {
   padding-top: 3rem;
 }
+
 .testimonials__container {
   width: 40%;
   padding-bottom: 4rem;
 }
+
 .client__avatar {
   width: 4rem;
   aspect-ratio: 1/1;
@@ -13,6 +16,7 @@
   margin: 0 auto 1rem;
   border: 0.4rem solid var(--color-primary-variant);
 }
+
 .testimonial {
   background: var(--color-bg-variant);
   text-align: center;
@@ -20,6 +24,7 @@
   border-radius: 2rem;
   user-select: none;
 }
+
 .client__review {
   color: var(--color-light);
   font-weight: 300;
@@ -27,14 +32,13 @@
   width: 80%;
   margin: 0.8rem auto 0;
 }
-/* ================ MEDIA QUERIES (MEDIUM DEVICES) ============= */
 
 @media screen and (max-width: 1024px) {
   .testimonials__container {
     width: 80%;
   }
 }
-/* ================ MEDIA QUERIES (SMALL DEVICES) ============= */
+
 @media screen and (max-width: 600px) {
   .testimonials__container {
     width: var(--container--width-sm);
@@ -44,14 +48,13 @@
   }
 }
 
-
-
-
 .custom-button-prev,
 .custom-button-next {
   position: absolute;
   transform: translateY(-50%);
-  top: 60%;
+  top: 40%;
+  right: 85%;
+  left: 85%;
   font-size: 22px;
   background-color: transparent;
   border: none;
@@ -66,9 +69,9 @@
 }
 
 .custom-button-prev {
-  left: 35px;
+  left: 0; /* Mengubah nilai dari 35px ke 0 agar berada di samping kiri konten */
 }
 
 .custom-button-next {
-  right: 35px;
+  right: 0; /* Mengubah nilai dari 35px ke 0 agar berada di samping kanan konten */
 }
