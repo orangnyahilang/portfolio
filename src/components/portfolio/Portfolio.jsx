@@ -76,7 +76,7 @@ class Portfolio extends Component {
       <section id="experience" className="ptf">
         <h5>Project 3 Bulan Terakhir</h5>
         <h2>Projects</h2>
-        <AnimatedComponent direction="up" duration={2000}>
+        <AnimatedComponent direction="down" duration={2000}>
         <div className="container portfolio__container">
           {data.map(({ id, image, title, github, demo }) => {
             return (

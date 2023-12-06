@@ -33,7 +33,7 @@ class Experience extends Component {
                 <div>
                   <FontAwesomeIcon icon={faHtml5} size="2x" />
                   <h4>HTML</h4>
-                  <small className="text-light">Experienced</small>
+                  <small className="text-light">Advanced</small>
                 </div>
               </article>
               <article className="experience__details">
@@ -49,7 +49,7 @@ class Experience extends Component {
                 <div>
                   <FontAwesomeIcon icon={faJs} size="2x" />
                   <h4>Javascript</h4>
-                  <small className="text-light">LoveIt</small>
+                  <small className="text-light">Advanced</small>
                 </div>
               </article>
               <article className="experience__details">
@@ -65,7 +65,7 @@ class Experience extends Component {
                 <div>
                   <FontAwesomeIcon icon={faBootstrap} size="2x" />
                   <h4>Bootstrap</h4>
-                  <small className="text-light">Beginner</small>
+                  <small className="text-light">Intermediate</small>
                 </div>
               </article>
               <article className="experience__details">
@@ -73,7 +73,7 @@ class Experience extends Component {
                 <div>
                   <FontAwesomeIcon icon={faReact} size="2x" />
                   <h4>React</h4>
-                  <small className="text-light">Beginner</small>
+                  <small className="text-light">Advanced</small>
                 </div>
               </article>
               <article className="experience__details">
@@ -81,7 +81,7 @@ class Experience extends Component {
                 <div>
                   <FontAwesomeIcon icon={faSass} size="2x" />
                   <h4>Sass</h4>
-                  <small className="text-light">Intermediate</small>
+                  <small className="text-light">Beginner</small>
                 </div>
               </article>
               <article className="experience__details">
@@ -92,7 +92,7 @@ class Experience extends Component {
                 </h5>
 
                 <h4>Next JS</h4>
-                  <small className="text-light">Beginner</small>
+                  <small className="text-light">Intermediated</small>
                 </div>
               </article>
             </div>
@@ -107,7 +107,7 @@ class Experience extends Component {
               <div>
                 <FontAwesomeIcon icon={faNodeJs} size="2x" />
                 <h4>Node.js</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Advanced</small>
               </div>
             </article>
             <article className="experience__details">
@@ -131,7 +131,7 @@ class Experience extends Component {
               <div>
                 <FontAwesomeIcon icon={faPhp} size="2x" />
                 <h4>PHP</h4>
-                <small className="text-light">Beginner</small>
+                <small className="text-light">Advanced</small>
               </div>
             </article>
             <article className="experience__details">
@@ -139,7 +139,7 @@ class Experience extends Component {
               <div>
                 <FontAwesomeIcon icon={faDatabase} size="2x" />
                 <h4>SQL</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Intermediated</small>
               </div>
             </article>
             </div>
