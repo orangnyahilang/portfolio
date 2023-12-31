@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c062c34c.css",
-    "main.js": "/portfolio/static/js/main.20cf94d2.js",
+    "main.css": "/portfolio/static/css/main.9c72879a.css",
+    "main.js": "/portfolio/static/js/main.98716eaf.js",
     "static/js/787.a48f37f9.chunk.js": "/portfolio/static/js/787.a48f37f9.chunk.js",
     "static/media/untagsbylogo.jpg": "/portfolio/static/media/untagsbylogo.76ba9fc77eac06de26e2.jpg",
     "static/media/web3.png": "/portfolio/static/media/web3.bf9a9d2eb00b6d781643.png",
     "static/media/fa-solid-900.ttf": "/portfolio/static/media/fa-solid-900.45a265d0f07b31cde85f.ttf",
     "static/media/web1.png": "/portfolio/static/media/web1.97726bb099a3f0207a5e.png",
+    "static/media/profile2.jpeg": "/portfolio/static/media/profile2.73b184fe8382ff2c43b5.jpeg",
     "static/media/cv.pdf": "/portfolio/static/media/cv.1db14d76d88fa37686a0.pdf",
     "static/media/fa-brands-400.ttf": "/portfolio/static/media/fa-brands-400.6205fd00fb1b573e9f0f.ttf",
     "static/media/fa-solid-900.woff2": "/portfolio/static/media/fa-solid-900.fb8184add5a3101ad0a3.woff2",
@@ -15,17 +16,16 @@
     "static/media/fa-regular-400.ttf": "/portfolio/static/media/fa-regular-400.adc51aab4d771ab65f81.ttf",
     "static/media/lp3.png": "/portfolio/static/media/lp3.8555d10af3b886fc1ebd.png",
     "static/media/fa-regular-400.woff2": "/portfolio/static/media/fa-regular-400.e931bc0d14f5bbb1da22.woff2",
-    "static/media/profile.jpg": "/portfolio/static/media/profile.b35a3775d609f8396f3a.jpg",
     "static/media/smpn1durenan.jpg": "/portfolio/static/media/smpn1durenan.c1feb77087d2e019445e.jpg",
     "static/media/fa-v4compatibility.ttf": "/portfolio/static/media/fa-v4compatibility.2eb7b3ef25042305f3ff.ttf",
     "static/media/fa-v4compatibility.woff2": "/portfolio/static/media/fa-v4compatibility.b3049b13a93f07e026fc.woff2",
     "index.html": "/portfolio/index.html",
-    "main.c062c34c.css.map": "/portfolio/static/css/main.c062c34c.css.map",
-    "main.20cf94d2.js.map": "/portfolio/static/js/main.20cf94d2.js.map",
+    "main.9c72879a.css.map": "/portfolio/static/css/main.9c72879a.css.map",
+    "main.98716eaf.js.map": "/portfolio/static/js/main.98716eaf.js.map",
     "787.a48f37f9.chunk.js.map": "/portfolio/static/js/787.a48f37f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c062c34c.css",
-    "static/js/main.20cf94d2.js"
+    "static/css/main.9c72879a.css",
+    "static/js/main.98716eaf.js"
   ]
 }
