@@ -1,5 +1,5 @@
 import { Component } from "react";
-import ME from "../../assets/profile.jpg";
+import ME from "../../assets/profile2.jpeg";
 import { BsAwardFill } from "react-icons/bs";
 import { FiUsers } from "react-icons/fi";
 import { FaProjectDiagram } from "react-icons/fa";
