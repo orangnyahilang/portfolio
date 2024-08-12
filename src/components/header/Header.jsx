@@ -17,7 +17,7 @@ class Header extends Component {
         <div className="container header__container">
           <h5 className="judulatas">Hello..</h5>
           <div className="typani"><TypingAnimation/></div>
-          <div className="text-light">Fullstack Developer ...</div>
+          <div className="text-light">Fullstack Developer</div>
           {/* <p>Mengembangkan situs web yang unik dan berfokus pada hasil dengan pendekatan kreatif dan teknis.</p> */}
           <CTA />
           <div className="pc">
