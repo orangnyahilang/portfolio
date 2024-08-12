@@ -6,9 +6,9 @@ const TypingAnimation = () => {
   useEffect(() => {
     const options = {
       strings: [
-        'Saya Arya Satya Ibnu Sani',
-        'Seorang Programmer',
-        'Ini halaman Portfolio saya'
+        'Nama Arya Satya Ibnu Sani',
+        'Saya Seorang Programmer',
+        'Berikut Portfolio saya..'
       ],
       typeSpeed: 50,
       backSpeed: 25,
