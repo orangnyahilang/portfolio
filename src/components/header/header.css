@@ -43,13 +43,17 @@ header {
   border-radius: 12rem 12rem 0 0;
 }
 .me2 {
-  width: 450px;
+  visibility: hidden;
+  width: 100%; /* Mengatur lebar agar sesuai dengan container */
+  max-width: 450px; /* Memastikan gambar tidak lebih besar dari ukuran tertentu */
   position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Menempatkan gambar di tengah */
   border-radius: 12rem 12rem 0 0;
   z-index: -5;
-  top: -40px;
-  right: -5px;
-  opacity: 0.1;
+  opacity: 0.2;
+  box-sizing: border-box; /* Menghindari overflow pada elemen */
 }
 /* ================= SCROLL DOWN ======= */
 .scroll__down {
@@ -306,6 +310,32 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
   }
+  .me .bglp {
+      display: block;
+      scale: 1;
+      width: 100%;
+      object-fit: cover;
+      animation: floatimg 3s ease-in-out infinite; /* Tambahkan animasi melayang */
+    }
+  @keyframes floatimg {
+    0% {
+        scale: 0.97;
+        transform: translateY(0);
+    }
+    50% {
+        scale: 1;
+        transform: translateY(-5px);
+    }
+    100% {
+        scale: 0.97;
+        transform: translateY(0);
+    }
+
+
+  }
+  .me2 {
+    visibility: visible;
+  }
   .ps4 {
     position: absolute;
     width: 100%;
@@ -321,6 +351,24 @@ header {
     text-decoration: none;
     text-align: center;
 }
+  .socials {
+    display: flex;
+    flex-direction: row; /* Mengatur arah flex ke horizontal */
+    align-items: center; /* Menyelaraskan elemen secara vertikal di tengah */
+    justify-content: center; /* Menyelaraskan elemen secara horizontal di tengah */
+    gap: 0.8rem; /* Memberikan jarak antar elemen */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Menempatkan elemen di tengah layar */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+  }
 
 }
 
@@ -331,9 +379,6 @@ header {
   .pc {
     display: none;
   }
-}
-
-.bglp {
 }
 
 .txtlp {
