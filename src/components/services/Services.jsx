@@ -9,8 +9,8 @@ class Services extends Component {
     return (
       <section id="experience" className="svc">
         <div id="servicesexperience"></div>
-        <h5>What I Offer</h5>
-        <h2>Services</h2>
+        <h5>Yang biasa saya</h5>
+        <h2>Kerjakan</h2>
         <AnimatedComponent direction="down">
         <div className="container services__container">
           <article className="service">

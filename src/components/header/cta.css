@@ -1,0 +1,81 @@
+/* cta.css */
+.ctas1 {
+    display: flex;
+    justify-content: flex-start; /* Memindahkan tombol-tombol ke kiri */
+    gap: 20px; /* Memberikan jarak antara tombol-tombol */
+    margin: 0;
+    margin-top: 15px;
+  }
+.ctas1 .btn {
+    border-radius: 10px;
+    padding: 6px 12px 6px 12px;
+}
+.ctas1 .btn2 {
+    background: linear-gradient(90deg, #4ec2ba, #e26a8a); /* Warna latar belakang tombol */
+    color: #fff; /* Warna teks tombol */
+    font-weight: bold;
+    border: #fff;
+  }
+
+.ctas1 .btn2:hover {
+  transform: scale(1.05); /* Efek zoom saat hover */
+  background-color: #0056b3; /* Warna latar belakang saat hover */
+  }
+  
+.ctas1 .btn2:active {
+  transform: scale(0.95); /* Efek zoom saat diklik */
+  background-color: #004494; /* Warna latar belakang saat diklik */
+  }
+
+  /* From Uiverse.io by mrtqzbek11 */ 
+.ctas1 .buttons3 {
+  cursor: pointer;
+  color: #fff;
+  position: relative;
+  border: #fff;
+  background: #1b11579a;
+  font-weight: bold;
+  transition: 0.1s;
+}
+
+.ctas1 .buttons3::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255, 94, 247, 0.628) 17.8%, rgba(2, 247, 255, 0.729) 100.2% );
+  filter: blur(8px);
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.ctas1 .buttons3:hover {
+  transform: scale(0.95) rotate(0deg);
+  background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% );
+  transition: 0.5s;
+}
+
+.ctas1 .buttons3:active {
+  transform: scale(1) rotate(3deg);
+  background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% );
+  transition: 0.5s;
+}
+
+@media only screen and (max-width: 600px) {
+  .ctas1 {
+    position: absolute; /* Mengatur posisi relatif terhadap elemen kontainer terdekat */
+    top: 40%; /* Menempatkan kontainer di tengah vertikal */
+    left: 50%; /* Menempatkan kontainer di tengah horizontal */
+    transform: translate(-50%, -50%); /* Mengatur posisi kontainer agar benar-benar di tengah */
+    display: flex;
+    gap: 10px; /* Menyesuaikan jarak antar tombol */
+    width: 90%; /* Menyesuaikan lebar tombol dengan kontainer */
+  }
+
+  .ctas1 .btn, .ctas1 .btn2, .ctas1 .buttons3 {
+    width: 100%; /* Mengatur lebar tombol agar penuh sesuai dengan lebar kontainer */
+    text-align: center; /* Menempatkan teks di tengah tombol */
+  }
+}
+

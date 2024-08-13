@@ -1,19 +1,21 @@
 import { Component } from "react";
-import { BsLinkedin } from "react-icons/bs";
-import { FaGithub } from "react-icons/fa";
-import { FiDribbble } from "react-icons/fi";
+import { FaTiktok } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import "./socials.css";
+
 class HeaderSocials extends Component {
   render() {
     return (
-      <div className="header__socials">
-        <a href="https://linkedin.com" target="_blank">
-          <BsLinkedin />
+      <div className="socials" >
+        <a href="https://www.tiktok.com/@freya.lumina" target="_blank">
+          <FaTiktok />
         </a>
-        <a href="https://github.com" target="_blank">
-          <FaGithub />
+        <a href="https://www.youtube.com/@dramainaja" target="_blank">
+          <FaYoutube />
         </a>
-        <a href="https://dribble.com" target="_blank">
-          <FiDribbble />
+        <a href="https://www.instagram.com/orangnya_.hilang/" target="_blank">
+          <FaInstagram />
         </a>
       </div>
     );

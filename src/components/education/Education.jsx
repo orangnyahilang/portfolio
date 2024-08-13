@@ -17,14 +17,14 @@ const data = [
     id: 1,
     name: "Universitas 17 Agustus 1945 Surabaya",
     review:
-      "Saya adalah mahasiswa semester 5 di Universitas Untag Surabaya, sedang menempuh program studi S1 Teknik Informatika.",
+      "Saat ini saya mahasiswa semester 7 di Universitas 17 Agustus Surabaya, dan sedang menempuh program studi S1 Teknik Informatika.",
     image: AVTR1,
   },
   {
     id: 2,
     name: "SMAN 1 Durenan",
     review:
-      "Saya aktif terlibat dalam kegiatan ekstrakurikuler dan organisasi, Posisi sebagai Ketua klub Jurnalistik (2018-2020), di mana saya berkontribusi pada pengembangan proyek-proyek inovatif.",
+      "Saya aktif terlibat dalam kegiatan ekstrakurikuler dan organisasi, Posisi sebagai Ketua klub Jurnalistik (2018-2020), di mana saya berkontribusi didalamnya.",
     image: AVTR2,
   },
   {

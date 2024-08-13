@@ -7,8 +7,8 @@ const TypingAnimation = () => {
     const options = {
       strings: [
         'Nama Arya Satya Ibnu Sani',
-        'Saya Seorang Programmer',
-        'Berikut Portfolio saya..'
+        'Saya Seorang Programmer Fullstack Web Dev',
+        'Berikut Portfolio saya'
       ],
       typeSpeed: 50,
       backSpeed: 25,

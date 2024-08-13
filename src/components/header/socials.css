@@ -1,0 +1,8 @@
+.socials {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Mengatur posisi item ke kiri secara vertikal */
+    gap: 0.8rem;
+
+
+}

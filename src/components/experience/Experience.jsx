@@ -7,6 +7,12 @@ import { faCheck, faBarsStaggered, faDatabase, faCircleCheck, faC } from '@forta
 import { faHtml5, faCss3, faJs, faReact, faBootstrap, faPhp, faSass } from '@fortawesome/free-brands-svg-icons';
 import { faNodeJs, faPython, faJava } from '@fortawesome/free-brands-svg-icons'; 
 import AnimatedComponent from "../../AnimatedComponent";
+import { SiAdobephotoshop } from "react-icons/si";
+import { SiAdobeillustrator } from "react-icons/si";
+import { SiAdobexd } from "react-icons/si";
+import { SiAdobepremierepro } from "react-icons/si";
+import { SiCanva } from "react-icons/si";
+import { FaFigma } from "react-icons/fa";
 
 class Experience extends Component {
   render() {
@@ -20,7 +26,7 @@ class Experience extends Component {
         </h5>
         <h2>
         <AnimatedComponent direction="right">
-        Pengalaman Saya
+        Role based
         </AnimatedComponent>
         </h2>
         <div className="container experience__container">
@@ -146,6 +152,80 @@ class Experience extends Component {
           </div>
           </AnimatedComponent>
         </div>
+
+
+        <div id="aboutexperience"></div>
+        <h5>
+        <br/>
+        <AnimatedComponent direction="right">
+        Keterampilan Desain
+        </AnimatedComponent>
+        </h5>
+        <h2>
+        <AnimatedComponent direction="right">
+        Tools yang saya kuasai
+        </AnimatedComponent>
+        </h2>
+
+        <div className="container experience__container2">
+          <AnimatedComponent direction="left">
+          <div className="experience__frontend">
+            <h3>UI/UX</h3>
+            <div className="experience__content2">
+              <article className="experience__details2">
+                <FontAwesomeIcon icon={faCheck} className="experience__details-icon" />
+                <div>
+                  <SiAdobephotoshop size={50}/>
+                  <h4>Photoshop</h4>
+                  <small className="text-light">Advanced</small>
+                </div>
+              </article>
+              <article className="experience__details2">
+                <FontAwesomeIcon icon={faCheck} className="experience__details-icon" />
+                <div>
+                  <SiAdobeillustrator size={50} />
+                  <h4>Illustrator</h4>
+                  <small className="text-light">Advanced</small>
+                </div>
+              </article>
+              <article className="experience__details2">
+                <FontAwesomeIcon icon={faCheck} className="experience__details-icon" />
+                <div>
+                  <SiAdobepremierepro size={50} />
+                  <h4>Premiere Pro</h4>
+                  <small className="text-light">Advanced</small>
+                </div>
+              </article>
+              <article className="experience__details2">
+                <FontAwesomeIcon icon={faCheck} className="experience__details-icon" />
+                <div>
+                  <SiAdobexd size={50} />
+                  <h4>XD</h4>
+                  <small className="text-light">Intermediate</small>
+                </div>
+              </article>
+              <article className="experience__details2">
+                <FontAwesomeIcon icon={faCheck} className="experience__details-icon" />
+                <div>
+                  <SiCanva size={50} />
+                  <h4>Canva</h4>
+                  <small className="text-light">Advanced</small>
+                </div>
+              </article>
+              <article className="experience__details2">
+                <FontAwesomeIcon icon={faCheck} className="experience__details-icon" />
+                <div>
+                  <FaFigma size={50} />
+                  <h4>Figma</h4>
+                  <small className="text-light">Advanced</small>
+                </div>
+              </article>
+            </div>
+          </div>
+          </AnimatedComponent>
+        </div>
+
+
       </section>
     );
   }

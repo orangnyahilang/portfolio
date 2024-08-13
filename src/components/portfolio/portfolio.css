@@ -1,6 +1,19 @@
 .ptf {
   padding-top: 3rem;;
 }
+.ptf h2 {
+  margin: 0;
+}
+.ptf .p1 {
+  color: #fff; /* Warna teks */
+  font-size: 14px; /* Ukuran font */
+  margin: 15px auto; /* Margin atas dan bawah 10px, tengah secara horizontal */
+  padding: 8px; /* Jarak di dalam elemen */
+  background-color: #ff0000; /* Warna background */
+  border-radius: 5px; /* Sudut membulat */
+  display: inline-block; /* Menyesuaikan lebar elemen dengan konten */
+  text-align: center; /* Rata tengah teks */
+}
 .portfolio__container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -10,6 +23,7 @@
 .portfolio__item {
   background: var(--color-bg-variant);
   padding: 1.2rem;
+  margin: auto;
   border-radius: 2rem;
   border: 1px solid transparent;
   transition: var(--transition);
@@ -57,31 +71,34 @@
   right: 0;
   bottom: 0;
   background-color: transparent; /* Adjust the opacity as needed */
-  backdrop-filter: blur(4px); /* Adjust the blur strength as needed */
+  backdrop-filter: blur(2px); /* Adjust the blur strength as needed */
   display: flex;
   align-items: center;
   justify-content: center;
   z-index: 10;
+  
 }
 
 /* Style for the modal itself */
 .ReactModal__Content {
   position: relative;
+  font-weight: bold;
   outline: none;
   background-color: #fff; /* Background color of the modal */
-  padding: 20px;
   max-width: 600px; /* Adjust the maximum width as needed */
   width: 100%;
   color: #000;
   margin: auto;
+  padding: 20px;
   border-radius: 8px;
 }
 
 /* Custom close button style */
 .closeButton {
   position: absolute;
-  top: 5px;
-  right: 5px;
+  top: 0px;
+  right: 3px;
+  padding: 5px;
   cursor: pointer;
   background: none;
   border: none;

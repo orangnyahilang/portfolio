@@ -72,6 +72,21 @@
 .about_cardshome {
   position: relative;
 }
+.profilebackground {
+  background: #17202a6d;
+  padding-bottom: 35px;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+}
+.wave-container {
+  position: relative;
+  width: 100%;
+  height: 10%;
+}
+
+
+
+
 
 /* ================ MEDIA QUERIES (MEDIUM DEVICES) ============= */
 

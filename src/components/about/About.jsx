@@ -5,10 +5,28 @@ import { FiUsers } from "react-icons/fi";
 import { FaProjectDiagram } from "react-icons/fa";
 import "./about.css";
 import AnimatedComponent from "../../AnimatedComponent";
+import Wave from 'react-wavify'
+
 class About extends Component {
   render() {
     return (
       <section id="about" className="abt">
+        <div className="wave-container">
+          <Wave
+            fill="#17202a6d"
+            paused={false}
+            style={{ display: 'flex', position: 'relative', top: '0px', width: '100%', height: '100%' }}
+            options={{
+              height: 40,
+              amplitude: 60,
+              speed: 0.15,
+              points: 3
+            }}
+          />
+        </div>
+                
+
+        <div class="profilebackground">
         <h5>Get To Know</h5>
         <h2>Tentang Saya</h2>
         <div className="container about__container">
@@ -26,7 +44,7 @@ class About extends Component {
               <article className="about__card">
                 <BsAwardFill className="about__icon" />
                 <h5>Pengalaman</h5>
-                <small>3+ Years Working (Freelancer)</small>
+                <small>3+ Tahun menjadi Freelancer</small>
               </article>
               <article className="about__card">
                 <FiUsers className="about__icon" />
@@ -35,8 +53,8 @@ class About extends Component {
               </article>
               <article className="about__card">
                 <FaProjectDiagram className="about__icon" />
-                <h5>Projects</h5>
-                <small>5+ Completed Projects (web)</small>
+                <h5>Media Sosial</h5>
+                <small>Mengelola konten kreatif</small>
               </article>
             </div>
             </AnimatedComponent>
@@ -44,8 +62,8 @@ class About extends Component {
             <AnimatedComponent direction="left">
             <p>
             Saya memiliki dedikasi tinggi terhadap pengembangan perangkat lunak
-            dan memahami pentingnya pengalaman pengguna yang baik. Saya berharap
-            dapat terus meningkatkan keterampilan teknis. dalam proyek-proyek inovatif
+            dan desain grafis pengalaman pengguna yang baik. Saya berharap
+            dapat terus meningkatkan keterampilan teknis dalam proyek-proyek inovatif berikutnya
             yang memungkinkan saya untuk terus tumbuh sebagai seorang profesional.
             </p>
             </AnimatedComponent>
@@ -54,6 +72,7 @@ class About extends Component {
             </a>
           </div>
         </div>
+      </div>
       </section>
     );
   }
